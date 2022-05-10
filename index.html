@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    
+    <title>Decodificador Alura</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/logo.png" alt="Logo da alura com a inicial da letra a" class="logo">
+    </header>
+    <main class="main">
+        <section>
+            <textarea class="input-texto" cols="40" rows="9" placeholder="Digite seu texto:"></textarea>
+            
+            <div>
+                <h6 class="informacao">Apenas letras minúsculas</h6>
+            </div>
+    
+            <div class="botoes">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Criptografar
+                </button>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Descriptografar
+                </button>
+            </div>
+        </section>
+       
+    
+        <section>
+            <textarea class="mensagem" id="id-copiado" cols="30" rows="18" placeholder="&#10;Nenhuma mensagem encontrada&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;Digite um texto ao lado para criptografar ou descriptografar"
+            readonly></textarea>
+            <div>
+                <button class="copiar" onclick="btnCopiar()">
+                    Copiar
+                 </button>
+            </div>
+        </section> 
+    </main>
+    <script src="script.js"></script>
+
+    <footer>
+        <p class="contato">
+            Desenvolvido por <a href="https://www.linkedin.com/in/talytta" title="linkedin"> Talytta Oliveira</a>  | 2022
+        </p>
+       
+    </footer>
+</body>
+</html>

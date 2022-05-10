@@ -1,0 +1,132 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+ }
+
+body {
+    background-color: #F3F5FC;
+
+}
+
+header {
+    width: 100%;
+    height: 5px;
+}
+
+.logo {
+    margin: 9px 0px 0px 2px;
+}
+
+.main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px; 
+    
+}
+
+.input-texto {
+    margin-top: 70px;
+    background: #F3F5FC;
+    border-style: none;
+    outline: none;
+    resize: none;
+}
+
+.input-texto::placeholder {
+    font-size: 20px;
+    color: gray;
+}
+
+.informacao {
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    width: 250px;
+    height: 50px;
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.encriptar:hover {
+    background-color: #356EA9;
+    color: #FFFFFF;
+}
+
+.desencriptar {
+    width: 250px;
+    height: 50px;
+    margin-left: 30px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-size: 20px;
+    cursor: pointer;
+}
+  
+.desencriptar:hover {
+    background-color: #072B61;
+    color: #FFFFFF;
+}
+
+.div-copiar {
+    display: none;
+    text-align: center;
+}
+
+.mensagem {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 90px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    background-image: url("imagens/avatar.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    text-align: center;
+    font-size: 19px;
+    outline: none;
+    border-style: none;
+    resize: none;
+}
+
+.copiar {
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    top: 572px;
+    left: 850px;
+    margin: 20px 0px 0px 90px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.copiar:hover {
+    background-color: #072B61;
+    color: #FFFFFF;
+}
+
+.contato {
+    text-align: center;
+    font-size: 20px;
+}
